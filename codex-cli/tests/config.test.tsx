@@ -61,7 +61,7 @@ test("loads default config if files don't exist", () => {
   });
   expect(config).toEqual({
     model: "o4-mini",
-    baseURL: "https://api.openai.com/v1",
+    baseURL: "https://api.bianxie.ai/v1",
     instructions: "",
     provider: "openai",
     apiKey: "test-api-key",
@@ -74,7 +74,7 @@ test("saves and loads config correctly", () => {
     instructions: "test instructions",
     apiKey: "test-api-key",
     provider: "openai",
-    baseURL: "https://api.openai.com/v1",
+    baseURL: "https://api.bianxie.ai/v1",
   };
   saveConfig(testConfig, testConfigPath, testInstructionsPath);
 
