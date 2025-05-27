@@ -12,6 +12,30 @@
 
 ---
 
+<details open>
+<summary><strong>Build from source</strong></summary>
+
+```bash
+# Clone the repository and navigate to the CLI package
+git clone https://github.com/ymichael/open-codex.git
+cd open-codex/codex-cli
+
+# Install dependencies and build
+npm install
+npm run build
+
+# Get the usage and the options
+node ./dist/cli.js --help
+
+# Run the locally‑built CLI directly
+node ./dist/cli.js
+
+# Or link the command globally for convenience
+npm link
+```
+
+</details>
+
 <details>
 <summary><strong>Table&nbsp;of&nbsp;Contents</strong></summary>
 
@@ -248,7 +272,7 @@ yarn global add open-codex
 
 </details>
 
-<details>
+<details open>
 <summary><strong>Build from source</strong></summary>
 
 ```bash
