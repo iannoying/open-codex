@@ -17,7 +17,7 @@
 
 ```bash
 # Clone the repository and navigate to the CLI package
-git clone https://github.com/ymichael/open-codex.git
+git clone git@github.com:iannoying/open-codex.git
 cd open-codex/codex-cli
 
 # Install dependencies and build
